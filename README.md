@@ -1,5 +1,5 @@
 # flipkart-app-clone
-[url](https://flipkart-app-clone-2024.netlify.app/)
+https://flipkart-app-clone-2024.netlify.app
 ![image](https://github.com/lakshmijaishankar/flipkart-app-clone/assets/121218341/f45f771a-5d87-4396-80f4-f0163947c563)
 
 
