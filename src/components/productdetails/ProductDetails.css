@@ -1,0 +1,29 @@
+:root {
+    --postion: bottom left;
+    --before-hover: circle(0% at var(--postion));
+    --after-hover: circle(150% at var(--postion));
+}
+
+.productdetails_container {
+    @apply flex h-[calc(100vh-91.19px)] grow justify-center gap-x-3 bg-white pt-6 tablet:p-3;
+
+    .productdetail_image {
+        @apply flex-[0_1_442px] tablet:flex-[0_1_300px];
+    }
+
+    .productdetails {
+        @apply flex basis-[60%] flex-col gap-y-2;
+    }
+}
+
+footer button::before {
+    @apply content-[''] absolute block left-0 top-0 h-full w-full transition-[clip-path] duration-300;
+    background-image: linear-gradient(45deg, #ffffff33, #ffffff33);
+    clip-path: var(--before-hover);
+}
+
+footer button:hover::before {
+
+    clip-path: var(--after-hover);
+
+}

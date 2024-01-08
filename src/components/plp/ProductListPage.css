@@ -1,0 +1,15 @@
+.productlist_page_warapper {
+    @apply flex justify-center bg-white shadow py-2 sticky top-[56px] z-[10];
+
+    .productlist_page {
+        @apply flex w-[90%] text-[0.8rem];
+
+        & li {
+            @apply flex grow items-center justify-center gap-x-1;
+
+            & span {
+                @apply font-bold capitalize text-[#4c4c4c];
+            }
+        }
+    }
+}

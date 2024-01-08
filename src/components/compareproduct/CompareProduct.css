@@ -1,0 +1,70 @@
+.compare-product-wrapper {
+    @apply fixed right-[50px] bottom-5 z-[111] max-w-[70%] rounded-s;
+
+    .compare-product-container {
+        @apply relative bg-white shadow-md;
+
+        .remove-all-prd {
+            @apply text-black bg-white px-5 py-2 rounded-sm shadow-sm absolute bottom-[5px] left-[45px];
+        }
+    }
+
+}
+
+.compare-prd-btn {
+    @apply fixed text-white bottom-[25px] right-[60px] flex space-x-2 text-[1rem];
+    animation: prd-btn-fade-opacity 300ms ease 0ms 1;
+    transform-origin: left;
+}
+
+.animate-bottom-right {
+    animation: fade-bottom-right 300ms ease-in-out 0ms 1;
+    transform-origin: bottom right;
+
+}
+
+.compare-prd-item {
+    @apply w-[135px] flex flex-col p-[0.05rem] mb-[40px] shrink-0 shadow-sm gap-y-2 relative;
+
+    .cross {
+        @apply absolute right-[-10px] top-[-10px] text-[1.3rem] text-[black] cursor-pointer;
+    }
+}
+
+.animate-count {
+    animation: fade-count-top 300ms linear 0ms 1;
+}
+
+@keyframes prd-btn-fade-opacity {
+    0% {
+        transform: scaleX(0);
+    }
+
+    100% {
+        transform: scaleX(1);
+
+    }
+}
+
+@keyframes fade-bottom-right {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes fade-count-top {
+    0% {
+        opacity: 0;
+        transform: translateY(-2rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}

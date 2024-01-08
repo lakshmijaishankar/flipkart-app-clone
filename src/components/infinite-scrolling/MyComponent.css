@@ -1,0 +1,7 @@
+.productlist_conainer {
+    /* @apply bg-white grow; */
+}
+
+.infinite-scroll-component__outerdiv {
+    @apply bg-white grow
+}

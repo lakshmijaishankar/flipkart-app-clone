@@ -1,0 +1,3 @@
+.searchsuggestion_container {
+    @apply absolute bg-white w-[89%] max-h-[230px] overflow-auto top-[40px] left-[27px] shadow-sm;
+}

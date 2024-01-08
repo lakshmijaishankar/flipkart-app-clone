@@ -1,0 +1,10 @@
+.loading-item-container {
+    @apply grid gap-1 justify-evenly;
+    grid-template-columns: repeat(5, minmax(auto, 250px));
+}
+
+@screen tablet {
+    .loading-item-container {
+        grid-template-columns: repeat(2, minmax(auto, 230px))
+    }
+}

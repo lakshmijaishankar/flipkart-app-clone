@@ -1,0 +1,15 @@
+.filterprd_categories {
+    @apply duration-200 transition-[max-height] overflow-y-auto flex flex-col;
+
+    &::-webkit-scrollbar {
+        @apply w-[6px]
+    }
+
+    &::-webkit-scrollbar-track {
+        @apply bg-[#a8a8a8] rounded
+    }
+
+    &::-webkit-scrollbar-thumb {
+        @apply bg-[#eff1f4] h-[5rem] rounded
+    }
+}

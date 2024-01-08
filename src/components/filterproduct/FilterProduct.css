@@ -1,0 +1,10 @@
+.filterproduct_container {
+    @apply h-screen bg-white sticky top-[100px] basis-[250px] self-start shrink-0;
+}
+
+@screen tablet {
+    .filterproduct_container {
+
+        @apply basis-[210px] top-[58px];
+    }
+}

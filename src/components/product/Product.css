@@ -1,0 +1,23 @@
+.product_card {
+    @apply bg-white p-2 shadow-md;
+
+    .product-image {
+        @apply relative h-[192px] overflow-hidden rounded-md tablet:h-[214px];
+
+        .product-img {
+            @apply relative h-[100%] tablet:aspect-square;
+        }
+    }
+
+    .product_title {
+        @apply line-clamp-1 text-[0.8rem] font-[400] capitalize;
+    }
+
+    .product_rating {
+        @apply inline-flex items-center rounded bg-[#388e3c] px-[6px] py-[2px] text-white;
+    }
+
+    .product-compare-checkbox {
+        @apply mt-2 flex items-center;
+    }
+}

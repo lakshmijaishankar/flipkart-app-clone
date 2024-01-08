@@ -1,0 +1,3 @@
+.main_container {
+    @apply bg-[#eff1f4] flex gap-x-2 px-2 py-2;
+}
