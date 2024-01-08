@@ -5,7 +5,7 @@ Site is live at https://flipkart-app-clone-2024.netlify.app
 ![image](https://github.com/lakshmijaishankar/flipkart-app-clone/assets/121218341/f45f771a-5d87-4396-80f4-f0163947c563)
 
 # Getting Started with create vite@latest
-This project was bootstrapped with [vite@latest](https://vitejs.dev/guide/)
+This project was bootstrapped with [https://vitejs.dev/guide/](https://vitejs.dev/guide/)
 
 ## Available Scripts
 
